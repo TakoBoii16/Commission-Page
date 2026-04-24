@@ -1,0 +1,101 @@
+body {
+	background-image: url('https://file.garden/Z_3yi196v1JJTjAw/Comm%20Page%20Assets/CommPageBG.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+h1 {
+    font-family: "Workbench", sans-serif;
+    color: #fff951;
+    text-align: left;
+    margin-left: 10px;
+}
+
+h2 {
+    font-family: "Workbench", sans-serif;
+    color: #fff951;
+    text-align: center;
+    margin-left: 10px;
+}
+
+p {
+    font-family: "Pixelify Sans", sans-serif;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+
+.smaller-text {
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.even-smaller-text {
+    font-size: 12px;
+    margin-left: 45px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    font-family: "Pixelify Sans", sans-serif;
+    text-align: center;
+    color: #fff951;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+}
+
+.content {
+     background-color: #000000;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    width: 600px;
+    height: auto;
+
+    /* Border */
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000536;
+	border-radius: 0px;
+}
+
+.content-tab {
+     background-color: #000000;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    width: 600px;
+    height: auto;
+    position: fixed;
+
+    /* Border */
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000536;
+	border-radius: 0px;
+}
+
+.awesome-image {
+    position: relative;
+}
+
+img {
+    height: 200px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+    padding: 8px;
+}
