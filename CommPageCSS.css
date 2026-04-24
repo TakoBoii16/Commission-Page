@@ -69,7 +69,23 @@ a {
 	border-radius: 0px;
 }
 
-.content-tab {
+.content-tab1 {
+     background-color: #000000;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    width: 600px;
+    height: auto;
+    position: fixed;
+
+    /* Border */
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000536;
+	border-radius: 0px;
+}
+
+.content-tab2 {
      background-color: #000000;
     color: white;
     z-index: 1;
@@ -111,9 +127,16 @@ img {
         height: 150px;
     }
 
-    .content-tab {
+    .content-tab1 {
         visibility: hidden;
+    }
 
+    .content-tab2 {
+        position: relative;
+        width: 300px;
+        left: 0px;
+        margin-top: -210px;
+        margin-bottom: 220px;
     }
 
     .content-container {
