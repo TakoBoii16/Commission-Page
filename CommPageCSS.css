@@ -49,6 +49,9 @@ a {
     justify-content: center;
     align-content: space-between;
     align-items: center;
+    position: relative;
+    height: auto;
+    width: auto;
 }
 
 .content {
@@ -94,8 +97,34 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .column {
     padding: 8px;
+}
+
+/* Port for Phone */
+
+@media (max-width: 600px) {
+    img {
+        height: 150px;
+    }
+
+    .content-tab {
+        visibility: hidden;
+
+    }
+
+    .content-container {
+        width: auto;
+    }
+
+    .content {
+        width: 300px;
+    }
+
+    .title {
+        height: 100px
+    }
 }
